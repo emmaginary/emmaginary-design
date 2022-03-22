@@ -1,0 +1,62 @@
+*{
+box-sizing:border-box;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  max-width:100%;
+  max-height:100%;
+}
+
+.centered img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.fixed {
+  left:20px;
+  top: 0px;
+  position: fixed;
+}
+
+.fixed2{
+  right:20px;
+  top:0px;
+  position:fixed;
+}
+
+h1 {
+font-family: 'Averia Serif Libre', cursive;
+}
+
+h2 {
+font-family: 'Averia Serif Libre', cursive;
+}
+
+p {
+  font-family: 'Averia Serif Libre', cursive;
+  font-style: italic;
+  text-align: left;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+.zoom {
+  transition: transform .2s; /* Animation */
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.5);
+}

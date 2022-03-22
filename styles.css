@@ -1,0 +1,50 @@
+*{
+box-sizing:border-box;
+}
+
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Control the left side */
+.left {
+  left: 0;
+  background-color: white;
+  color:black;
+}
+
+/* Control the right side */
+.right {
+  right: 0;
+  background-color: black;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  max-width:100%;
+}
+
+.centered img {
+  max-width: 100%;
+  border-radius: 50%;
+}
+
+h2 {
+font-family: 'Averia Serif Libre', cursive;
+}
+
+p {
+  font-family: 'Averia Serif Libre', cursive;
+  font-style: italic;
+}
